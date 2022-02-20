@@ -1,0 +1,143 @@
+<div class="wrapper">
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+            </li>
+            <li class="nav-item d-none d-sm-inline-block">
+                <a href="home.jsp" class="nav-link">Home</a>
+            </li>
+        </ul>
+    </nav>
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <a href="#" class="brand-link" style="text-align: center;">
+            <span class="brand-text font-weight-light" >Zaghloul Academy</span>
+        </a>
+        <div class="sidebar">
+            <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                <div class="image">
+                    <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="${sessionScope.username}">
+                </div>
+                <div class="info">
+                    <a href="#" class="d-block" style="text-align: center;">
+                        <span class="font-weight-light"><strong>Logged User:</strong> ${sessionScope.username}</span>
+                    </a>
+                </div>
+            </div>
+            <nav class="mt-2">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                    data-accordion="false">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-list"></i>
+                            <p>
+                                Master Lists
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="classes" class="nav-link">
+                                    <i class="fas fa-chalkboard-teacher nav-icon"></i>
+                                    <p>Classes</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="subject" class="nav-link">
+                                    <i class="fas fa-book nav-icon"></i>
+                                    <p>Subjects</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="teacher" class="nav-link">
+                                    <i class="fas fa-user-tie nav-icon"></i>
+                                    <p>Teachers</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="student" class="nav-link">
+                                    <i class="fas fa-users nav-icon"></i>
+                                    <p>Students</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-cog"></i>
+                            <p>
+                                Assign
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="subjectClass" class="nav-link">
+                                    <i class="far fa-plus-square nav-icon"></i>
+                                    <p>Subject to class</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="studentClass" class="nav-link">
+                                    <i class="far fa-plus-square nav-icon"></i>
+                                    <p>Student to Class</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="teacherClass" class="nav-link">
+                                    <i class="far fa-plus-square nav-icon"></i>
+                                    <p>Teacher to class</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="teacherSubject" class="nav-link">
+                                    <i class="far fa-plus-square nav-icon"></i>
+                                    <p>Teacher to Subject</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-copy"></i>
+                            <p>
+                                Reports
+                                <i class="fas fa-angle-left right"></i>
+                                <span class="badge badge-info right">1</span>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="classReport" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Class Report</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="logout" class="nav-link">
+                            <i class="nav-icon far fa-circle text-danger"></i>
+                            <p>
+                                Logout
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </aside>
+    <div class="content-wrapper" style="height: auto;">
+        <section class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1>Welcome, have a nice day :)</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="container-fluid">
