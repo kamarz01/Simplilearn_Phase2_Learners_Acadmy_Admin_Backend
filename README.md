@@ -3,6 +3,7 @@
 ## Intro
 
 Practise Project: Learning Academy Admin Backend System.
+
 The project was part of Simplilearn **Full Stack Java Developer Master Program** Phase (2).
 
 ## Technologies
